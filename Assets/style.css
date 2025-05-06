@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+:root {
+
+    --bg-primaire : #f3f2f3ec;
+    --bg-icone  : #F6F6F6;
+    --color-primaire  :  rgb(76, 174, 212);;
+
+}
+
+
+body {
+    background-color: var(--bg-primaire);
+}
+
+header {
+    font-family: "Urbanist", sans-serif; 
+    background-color: white;
+    height: 8vh;
+    padding: 5px 5% ;
+}
+
+
+header .logo {
+    width: 80px;
+    object-fit: cover;
+}
+
+
+header .nav a  {
+    color: rgba(0, 0, 0, 0.651);
+    font-weight: 500;
+
+}
+
+header .nav .home {
+    color: black;
+}
+
+
+header .nav a:hover  {
+    color: var(--color-primaire);
+
+}
+
+
+header .recherche {
+    background-color: var(--bg-primaire);
+    padding: 5px 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header .recherche img {
+    width: 15px;
+}
+header .recherche input  {
+  
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+header .recherche input::placeholder {
+    font-size: 12px;
+}
+
+
+header .profil .profil_icone {
+
+    background-color: var(--bg-primaire);
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+
+}
+
+header .profil .profil_icone:hover {
+
+   cursor: pointer;
+   background-color: var(--color-primaire);
+
+}
+
+header .profil .profil_icone img {
+    width: 15px;
+}
+
+header .profil .profil_icone:hover img {
+   filter: white;
+}
+
+
+
+/* hero section  */
+
+
+
+.hero {
+    height: 92vh;
+    width: 100%;
+    /* font-family: "Urbanist", sans-serif; */
+    font-family: "Core Sans c", sans-serif;
+}
+
+.post1 {
+    background: url(/Ressources/images/hero_bg.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 92vh;
+    padding:10%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: start;
+    color: white;
+}
+
+.hero .post1 h1 {
+   font-weight: bold;
+   font-size: 72px;
+}
+.hero .post1 h5 ,
+ .hero .post1 h5 {
+   font-weight: 200;
+   font-size: 32px;
+}
+
+.hero .hero_btn {
+    width: 250;
+    height: 61px;
+    padding: 10px 40px ;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    transition: 0.2s ease;
+    
+    
+}
+
+.hero .hero_btn:hover {
+  
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+
+    
+}
+
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 4rem;
+    height: 3rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+}
+
+
+
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5%;
+    padding: 0;
+    color: #250909;
+    text-align: center;
+    background: 0 0;
+    filter: var(--bs-carousel-control-icon-filter);
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex
+;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+}
+
+
+
+.carousel-indicators [data-bs-target] {
+
+    height: 10px;
+
+    margin-right: 1px;
+    margin-left: 1px;
+
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    /* opacity: .5; */
+    transition: opacity .6s ease;
+    
+}
+
