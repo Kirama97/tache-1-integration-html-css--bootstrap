@@ -757,6 +757,97 @@ section {
 }
 
 
+/* section 2 */
+
+
+
+.new_arrival_top {
+   
+    display: flex ;
+    gap: 10px;
+    align-items: center;
+    
+    
+    
+   
+}
+
+.new_arrival_top h1 {
+
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    
+}
+
+
+
+
+.new_arrival_content {
+    
+    /* background-color: rgb(29, 37, 37); */
+    margin-top: 5px;
+   
+    
+}
+
+.new_arrival_content .row {
+
+}
+
+
+.new_arrival_box {
+    /* background-color: aqua; */
+    
+}
+
+
+
+  
+  .slider-card {
+    flex: 0 0 25%; 
+    padding: 10px;
+    box-sizing: border-box;
+    /* background-color: #8A33FD; */
+    
+  }
+  .slider-card img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 3px 2px 3px rgba(156, 154, 154, 0.322);
+  }
+  .control-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    background: rgba(0, 0, 0, 0);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px;
+    
+    cursor: pointer;
+  }
+  .control-left {
+    left: 0;
+  }
+  .control-right {
+    right: 0;
+  }
+
+
+  .slider-card  h5 {
+    
+    font-size: 12px;
+    margin-top: 15px;
+    font-weight: 600;
+    /* background-color: aqua; */
+  }
+
+
+
 
 
   
