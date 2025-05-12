@@ -5,6 +5,8 @@
 *{
     text-decoration: none;
     box-sizing: border-box;
+    text-decoration: none;
+    text-transform: none;
 }
 
 
@@ -18,6 +20,7 @@
     --color-indigo  :  #8A33FD;
     --color-etoile  :  #EDD146;
     --bg-footer :  #3C4242;
+    --color-p : #26292896
 
 
 }
@@ -50,6 +53,10 @@ header {
     height: 8vh;
     padding: 5px 5% ;
    
+}
+
+.go_home {
+    text-decoration: none;
 }
 
 
@@ -1228,6 +1235,528 @@ padding: 10px;
 
 
 
+/* -------------------------------page sign in --------------------------------- */
+
+
+
+
+header .log_btn {
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+
+header .log_btn  button{
+
+     padding: 5px ;
+     width: 110px;
+     border-radius: 5px;
+     border: none;
+     outline: none;
+     font-size: 14px;
+
+}
+
+
+header .log_btn  button:nth-child(1) a {
+
+    text-decoration: none;
+    color: white;
+
+}
+header .log_btn  button:nth-child(2) a {
+
+    text-decoration: none;
+    color: var(--color-indigo);
+
+}
+header .log_btn  button:nth-child(1):hover a {
+
+    text-decoration: none;
+    color: white;
+
+}
+header .log_btn  button:nth-child(2):hover a {
+
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+.sign_in_page header .log_btn  button:nth-child(1) {
+    background-color: var(--color-indigo);
+    border: 1px solid var(--color-indigo);
+    color: white;
+    transition: 0.3s ease-in;
+}
+
+
+.sign_in_page header .log_btn  button:nth-child(2) {
+    background-color: transparent;
+    border: 1px solid var(--color-indigo);
+    color: var(--color-indigo);
+    transition: 0.3s ease-in;
+}
+
+
+.sign_in_page header .log_btn  button:nth-child(1):hover {
+
+    background-color: #0d0e0d;
+    border: 1px solid var(--bg-footer);
+    
+    
+}
+
+
+.sign_in_page header .log_btn  button:nth-child(2):hover {
+    background-color:var(--bg-footer);
+    color: white;
+    border: 1px solid var(--bg-footer);
+    
+    
+  
+
+}
+
+
+.select_langue select {
+    outline: none;
+    border: none;
+    font-size: 14px;
+}
+
+
+.form-select:focus {
+    border-color: transparent;
+    outline: 0;
+    border: none;
+    box-shadow: 0 0 0 .25rem rgba(255, 255, 255, 0.25);
+}
+
+
+
+
+
+
+
+  /* section hero sign up */
+
+
+  .hero_sign {
+    height: 92vh;
+    width: 100%;
+    display: flex;
+
+  }
+
+
+.sign_in_page .hero_sign .hero_sign_left {
+
+    background: url(/Ressources/images/signin.png);
+    background-repeat: no-repeat;
+    background-size: cover; ;
+    width: 50%;
+    height: 100%;
+
+}
+
+.hero_sign .hero_sign_right {
+
+    width: 50%;
+    height: 100%;
+    padding: 35px 7%;
+    background-color: rgb(255, 255, 255);
+}
+.hero_sign .hero_sign_right h1{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+
+.hero_sign .hero_sign_right .hero_sign_righ_btn {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+
+
+}
+
+.hero_sign_righ_btn button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.404);
+    transition: 0.2s ease-in-out;
+    color: var(--color-indigo);
+    
+}
+
+.hero_sign_righ_btn button img {
+    width: 15px;
+}
+.hero_sign_righ_btn button:nth-child(2):hover img {
+    filter: invert(2);
+}
+
+.hero_sign_righ_btn button p {
+    padding: 0;
+    margin: 0;
+   
+    font-size: 14px;
+}
+
+
+
+.hero_sign_righ_btn button:hover {
+
+    background-color: var(--color-primaire);
+    color: white;
+    border: 2px solid rgb(255, 255, 255) ;
+    box-shadow: 3px 3px 3px rgba(194, 193, 193, 0.082);
+    
+}
+
+
+
+.hero_sign_righ_middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.hero_sign_righ_middle .hero_sign_righ_middle_l{
+    border: 1px solid rgba(0, 0, 0, 0.199);
+    height: 1px;
+    width: 100%;
+
+}
+
+.hero_sign_righ_middle .hero_sign_righ_middle_or {
+   font-size: 14px;
+   color: var(--color-p);
+   font-weight: 500;
+}
+
+
+
+
+.hero_sign_submit {
+    background-color: var(--color-indigo);
+    border: 1px solid var(--color-indigo);
+    color: white;
+    transition: 0.3s ease-in;
+    padding: 10px ;
+    width: 130px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+
+}
+
+
+.hero_sign_form input {
+
+    border: 2px solid var(--color-p);
+    padding: 7px;
+    border-radius: 5px;
+
+}
+
+.hero_sign_form label {
+    color:var(--color-p) ;
+    font-size: 14px;
+}
+
+
+.hero_passwor_forget  {
+
+    text-align: right;
+    font-size: 14px;
+    text-decoration: underline;
+
+}
+.hero_passwor_forget a {
+
+
+    color: var(--color-p);
+
+}
+
+
+
+
+
+
+.hero_link_sign_up {
+
+
+    font-size: 14px;
+    color: var(--color-p);
+    text-decoration: none;
+
+  
+}
+.hero_link_sign_up a {
+
+
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.705);
+    margin-top: 20px;
+
+  
+}
+
+
+
+
+/* ------------------------sign up page ---------------------------------- */
+
+
+
+.sign_up_page header .log_btn  button:nth-child(2) {
+    background-color: var(--color-indigo);
+    border: 1px solid var(--color-indigo);
+    color: white;
+    transition: 0.3s ease-in;
+}
+
+
+.sign_up_page header .log_btn  button:nth-child(1) {
+    background-color: transparent;
+    border: 1px solid var(--color-indigo);
+    color: var(--color-indigo);
+    transition: 0.3s ease-in;
+}
+
+
+.sign_up_page header .log_btn  button:nth-child(2):hover {
+
+    background-color: #0d0e0d;
+    border: 1px solid var(--bg-footer);
+    
+    
+}
+
+
+.sign_up_page header .log_btn  button:nth-child(1):hover {
+    background-color:var(--bg-footer);
+    color: white;
+    border: 1px solid var(--bg-footer);
+    
+    
+  
+
+}
+
+
+
+ .sign_up_page header .log_btn  button:nth-child(2) a {
+
+    text-decoration: none;
+    color: white;
+
+}
+ .sign_up_page header .log_btn  button:nth-child(1) a {
+
+    text-decoration: none;
+    color: var(--color-indigo);
+
+}
+ .sign_up_page header .log_btn  button:nth-child(2):hover a {
+
+    text-decoration: none;
+    color: white;
+
+}
+ .sign_up_page header .log_btn  button:nth-child(1):hover a {
+
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+.sign_up_page .hero_sign .hero_sign_left {
+
+    background: url(/Ressources/images/signup.png);
+    background-repeat: no-repeat;
+    background-size: cover; ;
+    width: 50%;
+    height: 100%;
+
+}
+
+
+
+.hero_user_indice p {
+    font-size: 14px ;
+    color: var(--color-p);
+}
+
+
+
+
+
+.form-check-input:checked {
+    background-color: #000000;
+    border-color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1633,6 +2162,74 @@ padding: 10px;
 
 }
 
+
+
+
+
+
+
+/* -------------------------------page sign in --------------------------------- */
+
+
+
+.sign_in {
+    display: none;
+}
+
+
+header .log_btn {
+
+    gap: 15px;
+    
+}
+
+
+header .log_btn  button{
+
+     padding: 5px ;
+     width: 100px;
+     border-radius: 5px;
+     font-size: 12px;
+
+}
+
+
+
+.dropdown-toggle {
+    font-size: 14px;
+    outline: none;
+    text-decoration: none;
+    text-transform: none;
+    color: rgba(0, 0, 0, 0.781);
+    cursor: pointer;
+}
+
+.dropdown-menu a {
+    font-size: 12px;
+   
+    
+}
+
+
+
+/*      hero_sign */
+
+
+.hero_sign{
+
+    height: auto;
+
+}
+
+
+.hero_sign .hero_sign_left {
+    display: none; 
+}
+
+
+.hero_sign .hero_sign_right {
+  width: 100%;
+}
 
 
 
@@ -2542,6 +3139,54 @@ padding: 10px;
     font-size: 10px;
 
 }
+
+
+
+
+
+/* -------------------------------page sign in --------------------------------- */
+
+
+
+.sign_in {
+    display: none;
+}
+
+
+header .log_btn {
+
+    gap: 15px;
+
+    display: none;
+}
+
+
+header .log_btn  button{
+
+     padding: 5px ;
+     width: 100px;
+     border-radius: 5px;
+     font-size: 12px;
+
+}
+
+
+
+.dropdown-toggle {
+    font-size: 14px;
+    outline: none;
+    text-decoration: none;
+    text-transform: none;
+    color: rgba(0, 0, 0, 0.781);
+    cursor: pointer;
+}
+
+.dropdown-menu a {
+    font-size: 12px;
+   
+    
+}
+
 
 
 
