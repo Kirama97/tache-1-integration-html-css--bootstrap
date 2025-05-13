@@ -12,3 +12,21 @@ function slide(direction) {
   const slideWidth = sliderTrack.offsetWidth / visibleCards;
   sliderTrack.style.transform = `translateX(-${currentSlide * slideWidth}px)`;
 }
+
+
+
+// burguer
+
+
+const burguer = document.querySelector('.burguer');
+const navigation = document.querySelector('header nav');
+const profil = document.querySelector('.profil');
+
+
+burguer.addEventListener('click', () => {
+  
+  navigation.classList.toggle('active');
+  profil.classList.toggle('active');
+
+
+});
