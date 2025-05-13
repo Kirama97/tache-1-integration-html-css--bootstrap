@@ -1804,6 +1804,346 @@ header .log_btn  button:nth-child(2):hover a {
 
 
 
+/*---------------------------------------------------- page women -------------------------------------------------- */
+
+
+
+.page_women {
+    background-color: white;
+}
+
+.page_women header{
+
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0px;
+  z-index: 99;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.151);
+}
+
+
+
+.page_women .sect_women_list_produit {
+
+     width: 100%;
+     padding: 0;
+     position: relative;
+     margin-top: 8vh;
+}
+
+
+.sect_women_list_produit .filtre {
+ 
+    width: 20vw;
+    /* padding: 40px 20px; */
+    /* background-color: wheat; */
+    
+    position: sticky;
+    left: 5%;
+    border-left: 2px solid rgba(0, 0, 0, 0.041) ;
+    border-right: 2px solid rgba(0, 0, 0, 0.096) ;
+    color: var(--color-p);
+    
+}
+
+
+.sect_women_list_produit .womens_closer {
+
+    position: fixed;
+    width: 70vw;
+    padding: 40px 20px;
+    background-color: #EDD146;
+    /* height: 1200px; */
+    right: 5%;
+    
+}
+
+
+.sect_women_list_produit .filtre .filtre_top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--bg-icone);
+    padding:  20px;
+}
+
+.sect_women_list_produit .filtre .filtre_top:hover{
+    color: var(--color-primaire);
+    cursor: pointer;
+}
+
+.sect_women_list_produit .filtre .filtre_top:hover img {
+    opacity: 1;
+}
+
+.sect_women_list_produit .filtre .filtre_top h3 {
+     font-size: 14px;
+     font-weight: 700;
+     
+}
+
+
+
+.sect_women_list_produit .filtre .filtre_top img {
+    width: 18px;
+    cursor: pointer;
+  opacity: .5;
+  transition: 0.2s ease-out;
+}
+
+
+
+.filtre .filtre_categorie {
+   
+ padding: 20px 0;
+  border-bottom: 1px solid var(--bg-icone);
+}
+
+.filtre .filtre_categorie ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.filtre .filtre_categorie ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+     padding: 3px 20px;
+     transition: 0.2s ease-in-out;
+      border-bottom: 1px solid transparent
+}
+
+.filtre .filtre_categorie ul li:hover {
+    color: var(--color-primaire);
+    background-color: rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid var(--color-primaire);
+    cursor: pointer;
+}
+
+
+
+/* filtre jauge */
+
+.jauge_de_filtre {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid var(--bg-icone);
+}
+
+
+
+.jauge_de_filtre .jaunge_indice {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+   
+    
+}
+
+
+.jauge_de_filtre .jauge_top {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 2px; 
+  width: 100%;
+  margin-bottom: 20px;
+
+}
+
+
+.jauge_de_filtre .jauge_top  span:nth-child(1) 
+, .jauge_de_filtre .jauge_top  span:nth-child(3) 
+, .jauge_de_filtre .jauge_top  span:nth-child(5){
+    flex: 1;
+    height: 2px;
+    background-color: var(--color-p);
+
+}
+
+.jauge_de_filtre .jauge_top  span:nth-child(2) {
+    
+    height: 2px;
+    padding: 8px ;
+    border-radius: 50%;
+    background-color: var(--color-indigo);
+    cursor: pointer;
+
+}
+
+
+.jauge_de_filtre .jauge_top  span:nth-child(4) {
+    
+    height: 2px;
+    padding: 8px ;
+    border-radius: 50%;
+    background-color: var(--color-indigo);
+    cursor: pointer;
+
+}
+
+
+
+
+   
+
+
+.jauge_de_filtre .jaunge_indice div {
+    border: 1px solid var(--color-p);
+    border-radius: 10px;
+    padding: 7px 30px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+/* categorie color  */
+
+
+.categorie_color {
+    padding: 20px;
+}
+
+
+.categorie_color .color_row {
+  justify-content: center;
+    
+} 
+
+
+
+
+
+  .color_item {
+    height: 40px;
+    border-radius: 10%;
+    margin: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border: 2px solid transparent;
+  }
+
+  .color_item:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+
+
+ .color_red    { background-color: #e74c3c; }
+  .color_blue   { background-color: #3498db; }
+  .color_green  { background-color: #2ecc71; }
+  .color_orange { background-color: #e67e22; }
+  .color_pink   { background-color: #fd79a8; }
+  .color_black  { background-color: #2d3436; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
