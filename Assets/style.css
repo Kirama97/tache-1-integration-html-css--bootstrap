@@ -1825,9 +1825,9 @@ header .log_btn  button:nth-child(2):hover a {
 
 
 .page_women .sect_women_list_produit {
-
+     display: flex;
      width: 100%;
-     padding: 0;
+     padding: 0 5%;
      position: relative;
      margin-top: 8vh;
 }
@@ -1835,11 +1835,8 @@ header .log_btn  button:nth-child(2):hover a {
 
 .sect_women_list_produit .filtre {
  
-    width: 20vw;
-    /* padding: 40px 20px; */
-    /* background-color: wheat; */
-    
-    position: sticky;
+    width: 25%;
+  
     left: 5%;
     border-left: 2px solid rgba(0, 0, 0, 0.041) ;
     border-right: 2px solid rgba(0, 0, 0, 0.096) ;
@@ -1848,16 +1845,6 @@ header .log_btn  button:nth-child(2):hover a {
 }
 
 
-.sect_women_list_produit .womens_closer {
-
-    position: fixed;
-    width: 70vw;
-    padding: 40px 20px;
-    background-color: #EDD146;
-    /* height: 1200px; */
-    right: 5%;
-    
-}
 
 
 .sect_women_list_produit .filtre .filtre_top {
@@ -2018,6 +2005,7 @@ header .log_btn  button:nth-child(2):hover a {
 
 .categorie_color {
     padding: 20px;
+    border-bottom: 1px solid var(--bg-icone);
 }
 
 
@@ -2028,10 +2016,23 @@ header .log_btn  button:nth-child(2):hover a {
 
 
 
+.color_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
 
 
-  .color_item {
+.color_item p {
+    font-size: 12px;
+}
+
+  .color_item .color {
     height: 40px;
+    width: 40px;
     border-radius: 10%;
     margin: 5px;
     cursor: pointer;
@@ -2039,7 +2040,7 @@ header .log_btn  button:nth-child(2):hover a {
     border: 2px solid transparent;
   }
 
-  .color_item:hover {
+  .color_item .color:hover {
     transform: scale(1.1);
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
   }
@@ -2051,6 +2052,151 @@ header .log_btn  button:nth-child(2):hover a {
   .color_orange { background-color: #e67e22; }
   .color_pink   { background-color: #fd79a8; }
   .color_black  { background-color: #2d3436; }
+
+
+
+
+
+  /* ---------------women closer-------------- */
+
+.sect_women_list_produit .womens_closer {
+
+    
+    width: 75%;
+    padding:  30px 40px;
+    background-color: #ffffff;
+    
+}
+
+
+.womens_closer .womens_closer_contenue {
+
+ /* height: 100vh; */
+
+
+}
+
+.women_closer_top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.women_closer_top h3 {
+
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.women_closer_top .women_closer_top_right {
+    display: flex;
+    align-items: center;
+    gap: 10px ;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+.women_closer_top .women_closer_top_right .new_indigo {
+    color: var(--color-indigo);
+}
+
+
+
+.womens_closer_contenue_card {
+    /* background-color: aqua; */
+    height: 100%;
+}
+
+
+
+
+
+
+.page_women .cat_for_man {
+    row-gap: 10px;
+    justify-content: center;
+}
+
+.page_women .cat_for_man_item {
+    height: 400px;
+    padding: 10px;
+    /* background-color: aqua; */
+}
+
+.page_women .for_man_content {
+    height: 100%;
+    width: 100%;
+}
+
+.page_women .for_man_content img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: 0.2s ease-in;
+}
+
+.page_women .for_man_descript {
+    height: 20%;
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page_women .cat_for_man_descript_left h1 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.page_women .cat_for_man_descript_left p {
+    font-size: 12px;
+    transition: 0.3s ease;
+}
+
+.page_women .cat_for_man_descript_right {
+    transition: 0.3s ease;
+}
+
+.page_women .for_man_content:hover {
+    cursor: pointer;
+}
+
+.page_women .for_man_content:hover .fa-arrow-right {
+    cursor: pointer;
+    font-size: 18px;
+    color: var(--color-indigo);
+    animation: explore 1s infinite;
+}
+
+.page_women .for_man_content:hover .cat_for_man_descript_left p {
+    color: var(--color-indigo);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
