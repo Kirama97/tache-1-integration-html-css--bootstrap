@@ -2464,6 +2464,19 @@ header {
 
 
 
+
+.select_langue select {
+    outline: none;
+    border: none;
+    font-size: 14px;
+    width: 70px;
+}
+
+
+
+
+
+
 .sign_in {
     display: none;
 }
@@ -2505,6 +2518,7 @@ header .log_btn  button{
 
 
 /*      hero_sign */
+
 
 
 .hero_sign{
@@ -2579,7 +2593,7 @@ header .profil.active  {
 
 
 .burguer {
-    width: 20px;
+    width: 22px;
 }
 
 
@@ -2612,7 +2626,7 @@ header {
     } 
 
       header nav.active a {
-        font-size: 12px;
+        font-size: 14px;
         color: rgb(255, 255, 255);
 
 
@@ -2647,7 +2661,7 @@ header .recherche img {
 }
 header .recherche input  {
     font-size: 12px;
-    padding: 3px 0;
+    padding: 5px 0;
     border: none;
     background-color: transparent;
     outline: none;
