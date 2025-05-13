@@ -1625,20 +1625,149 @@ header .log_btn  button:nth-child(2):hover a {
 
 
 
+/*------------------------------------------- reset_password page ------------------------------- */
+
+
+
+
+
+.reset_password_page header .log_btn  button  
+, .check_email_page header .log_btn  button 
+, .confirmation_page header .log_btn  button 
+, .new_password_page header .log_btn  button {
+
+     padding: 5px ;
+     width: 110px;
+     border-radius: 5px;
+     border: none;
+     outline: none;
+     font-size: 14px;
+    background-color: transparent;
+    border: 1px solid var(--color-indigo);
+    color: var(--color-indigo);
+    transition: 0.3s ease-in;
+}
+
+.reset_password_page header .log_btn  button:hover 
+ ,.check_email_page header .log_btn  button:hover 
+ , .confirmation_page header .log_btn  button:hover 
+ , .new_password_page header .log_btn  button:hover {
+    background-color:var(--bg-footer);
+    color: white;
+    border: 1px solid var(--bg-footer);
+    
+    
+  
+
+}
+
+
+.reset_password_page header .log_btn  button a 
+, .check_email_page header .log_btn  button a 
+, .confirmation_page header .log_btn  button a 
+, .new_password_page header .log_btn  button a {
+
+    text-decoration: none;
+    color: var(--color-indigo);
+
+}
+
+.reset_password_page header .log_btn  button:hover a
+, .check_email_page header .log_btn  button:hover a 
+, .confirmation_page header .log_btn  button:hover a 
+, .new_password_page header .log_btn  button:hover a {
+
+    text-decoration: none;
+    color: white;
+
+}
+
+
+/* section hero */
+
+
+
+
+.reset_password_page .hero_sign .hero_sign_left {
+
+    background: url(/Ressources/images/reset.png);
+    background-repeat: no-repeat;
+    background-size: cover; ;
+    width: 50%;
+    height: 100%;
+
+}
+
+
+.hero_sign_descript_top p {
+
+    font-size: 14px ;
+    color: var(--color-p);
+    padding: 0;
+    margin: 0;
+
+}
+
+.hero_sign_descript_top {
+    margin-bottom: 20px;
+}
+
+
+.hero_sign_descript_top a {
+    text-decoration: none;
+    color: var(--color-indigo);
+}
 
 
 
 
 
 
+/* -----------------check email page --------------------- */
+
+
+
+.check_email_page .hero_sign .hero_sign_left {
+
+    background: url(/Ressources/images/cheickmail.png);
+    background-repeat: no-repeat;
+    background-size: cover; ;
+    width: 50%;
+    height: 100%;
+
+}
+
+
+/* -----------confirmation page  ---------------- */
 
 
 
 
 
+.confirmation_page .hero_sign .hero_sign_left {
+
+    background: url(/Ressources/images/validation.png);
+    background-repeat: no-repeat;
+    background-size: cover; ;
+    width: 50%;
+    height: 100%;
+
+}
 
 
 
+/* -----------New password page  ---------------- */
+
+
+.new_password_page .hero_sign .hero_sign_left {
+
+    background: url(/Ressources/images/newpassword.png);
+    background-repeat: no-repeat;
+    background-size: cover; ;
+    width: 50%;
+    height: 100%;
+
+}
 
 
 
