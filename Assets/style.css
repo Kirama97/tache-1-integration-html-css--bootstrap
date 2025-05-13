@@ -52,6 +52,16 @@ body {
     overflow-x: hidden;
 }
 
+
+.sign_in_page 
+, .sign_up_page 
+, .reset_password_page 
+, .check_email_page 
+, .confirmation_page 
+, .new_password_page  {
+    background-color: white;
+}
+
 header {
     font-family: "Urbanist", sans-serif; 
     background-color: white;
