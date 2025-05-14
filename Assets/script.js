@@ -30,3 +30,16 @@ burguer.addEventListener('click', () => {
 
 
 });
+
+
+// burguuer left
+
+const page_filtre = document.querySelector('.filtre');
+const bloc_burguer_left = document.querySelector('.bloc_burguer_left');
+
+bloc_burguer_left.addEventListener('click', () => {
+
+   page_filtre.classList.toggle('active');
+   bloc_burguer_left.classList.toggle('active');
+})
+
