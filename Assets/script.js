@@ -28,6 +28,8 @@ burguer.addEventListener('click', () => {
   navigation.classList.toggle('active');
   profil.classList.toggle('active');
 
+  
+
 
 });
 

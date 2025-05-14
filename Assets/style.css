@@ -72,6 +72,8 @@ header {
 
 .go_home {
     text-decoration: none;
+    outline: none;
+    border: none;
 }
 
 
@@ -933,7 +935,18 @@ padding: 10px;
     align-items: center;
     border-radius: 5px;
     padding: 5px 0;
+    transition: 0.3s ease;
     
+}
+
+.price_to_limelight:hover {
+    color: white;
+    background-color: var(--color-primaire);
+    transform: scale(1.1)
+}
+
+.price_to_limelight:hover p {
+    color: white;
 }
 
 .price_to_limelight p {
@@ -1836,10 +1849,10 @@ header .log_btn  button:nth-child(2):hover a {
 .sect_women_list_produit .filtre {
  
     width: 25%;
-  
-    left: 5%;
+    height: 100%;
     border-left: 2px solid rgba(0, 0, 0, 0.041) ;
     border-right: 2px solid rgba(0, 0, 0, 0.096) ;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.096) ;
     color: var(--color-p);
     
 }
@@ -2184,20 +2197,129 @@ header .log_btn  button:nth-child(2):hover a {
 
 
 
+/* SIZE CATEGORIE  */
+
+
+.size_categorie {
+    padding: 20px;
+    border-bottom: 1px solid var(--bg-icone);
+}
+
+.size_categorie .size_row {
+  justify-content: center;
+  /* background-color: aqua; */
+  
+
+    
+}
+
+.size_categorie .size_item  {
+    height: 100%;
+    /* background-color: red; */
+    padding: 10px;
+}
+
+.size_categorie .size_item div {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid var(--color-p);
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+
+.size_categorie .size_item div:hover {
+    background-color: var(--color-primaire);
+    color: rgb(255, 255, 255);
+     box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+     border: 1px solid rgba(255, 255, 255, 0.363);
+}
+
+
+.size_categorie .size_item div p {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+}
+
+
+/* section women online  */
+
+
+
+.page_women .new_arrival_top h1 {
+    font-size: 18px;
+}
+
+
+ .women_online 
+ , .women_best_price{
+
+    padding: 20px 5%;
+    
+ }
+
+
+   .women_online .women_online_descript h4 {
+    font-size: 14px;
+    font-weight: 600;
+    color:var(--color-p);
+    margin-bottom: 15px;
+   }
+
+
+  .women_online .women_online_descript p {
+    color: var(--color-p);
+    font-size: 13px;
+  }
 
 
 
 
+/* section best price women  */
 
 
+.women_best_price_descript {
+    /* height: 70vh; */
+    width: 100%;
+    background-color: var(--bg-icone);
+    border-radius: 10px;
+
+}
 
 
+.women_best_price_descript table {
+    width: 100%;
+    height: 100%;
+    color: var(--color-p);
+    
+}
 
 
+.women_best_price_descript table tr td 
+, .women_best_price_descript table tr th { 
+     padding-left:100px ;
+    
+  
+    
+     
+}
+
+.women_best_price_descript table tr td:nth-child(2) {
+    text-align: center;
+}
+
+.women_best_price_descript table thead {
+    border-bottom: 1px solid black ;
+    font-size: 14px ;
+    color: var(--color-p);
+    
+}
 
 
-
-
+.women_best_price_descript table tbody {
+   font-size: 14px;
+}
 
 
 
@@ -2453,6 +2575,7 @@ header .log_btn  button:nth-child(2):hover a {
 header {
     position: relative;
     overflow: visible;
+    
 }
 
     header nav {
@@ -2921,7 +3044,7 @@ header {
         top: 8vh;
         width: 50%;
         right:  0;
-        z-index: 100;
+        /* z-index: 50; */
         flex-direction: column;
         justify-content: center;
         gap: 30px;
@@ -3113,11 +3236,7 @@ header {
     color: white;
 }
 
-.footer_top_item {
-    
 
-
-}
 .footer_top_item ul{
     
  display: flex;
@@ -3432,7 +3551,7 @@ header .log_btn  button{
   width: 100%;
   left: 0;
   top: 0px;
-  z-index: 99;
+  z-index: 70;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.151);
 }
 
@@ -3443,7 +3562,7 @@ header .log_btn  button{
      width: 100%;
      padding: 0 0%;
      position: relative;
-     margin-top: 8vh;
+     margin-top: 8lvh;
      
 }
 
@@ -3461,13 +3580,14 @@ header .log_btn  button{
     opacity: 0;
 
 
+
     
 }
 
 
 .sect_women_list_produit .filtre.active {
 
-     width: 250px;
+     width: 275px;
      opacity: 1;
 
 }
@@ -3488,7 +3608,7 @@ header .log_btn  button{
     height: 50px;
     border-top-right-radius:10px ;
     border-bottom-right-radius:10px ;
-    z-index: 100;
+    z-index: 80;
     transition: 0.3s ease-in-out;
     
 
@@ -3500,7 +3620,7 @@ header .log_btn  button{
     display: flex;
     left: 0;
     top: 10vh;
-    left: 250px;
+    left: 275px;
    
 
 }  
@@ -3823,6 +3943,30 @@ header .log_btn  button{
 
 
     
+/* section best price women  */
+
+
+
+.women_best_price_descript table tr td 
+, .women_best_price_descript table tr th { 
+     padding-left:30px ;
+    
+  
+    
+     
+}
+
+
+.women_best_price_descript table thead {
+    border-bottom: 1px solid black ;
+    font-size: 14px ;
+    color: var(--color-p);
+    
+}
+
+.women_best_price_descript table tbody {
+   font-size: 14px;
+}
 
 
 
@@ -3901,10 +4045,10 @@ header {
 
         width: 100%;
         left:  0;
-        z-index: 100;
+        /* z-index: 50; */
         flex-direction: column;
         justify-content: center;
-        padding: 40px;
+        /* padding: 40px; */
         gap: 30px;
         transition: 0.2s ease-in-out;
         opacity: 0;
