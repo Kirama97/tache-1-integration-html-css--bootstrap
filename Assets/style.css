@@ -3136,15 +3136,175 @@ header .log_btn  button:nth-child(2):hover a {
 
 
 
+/* cart disount code  */
+
+
+
+
+.cart_dicount_code   {
+
+    
+}
+
+
+.cart_dicount_code .cart_discount_code_contenu {
+
+    display: flex;
+    width: 100%;
+    /* height: 50vh; */
+    
+}
+
+
+
+.cart_discount_code_contenu_left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 60%;
+    padding: 0 5%;
+}
+
+
+.discount_code_contenu_left_top h2 {
+   font-size: 18px;
+   font-weight: 700;
+}
+
+
+
+.discount_code_contenu_left_top p {
+  font-size: 14px;
+  color: var(--color-p);
+}
+
+
+
+.discount_code_contenu_left_input {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.discount_code_contenu_left_input input {
+   margin: 5px 7px;
+   font-size: 14px;
+   width: 60%;
+   border: none;
+   outline: none;
+   padding: 5px;
+   color: #262928;
+}
+
+
+.discount_code_contenu_left_input  button {
+    border: none;
+    font-size: 14px;
+    height: 100%;
+    width: 40%;
+    color: white;
+    outline: none;
+    background-color: var(--color-indigo);
+    transition: 0.3s ease-in;
+}
+
+
+.discount_code_contenu_left_input  button:hover {
+    background-color: #000000;
+}
+
+
+
+.discount_code_contenu_left_btn {
+
+    width: 35%;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    box-shadow: 8px 0px 10px rgba(136, 117, 117, 0.055);
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    border: 1px solid var(--color-p);
+}
 
 
 
 
 
+/* right */
 
 
 
 
+.cart_discount_code_contenu_right {
+
+    width: 40%;
+    background-color: #dbdada;
+     padding: 5% 0;
+    
+    
+}
+
+
+.cart_discount_code_contenu_right_top {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     padding-bottom: 50px;
+     border-bottom: 2px solid var(--color-p);
+}
+
+.cart_discount_code_contenu_right_top span {
+
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.cart_discount_code_contenu_right_top span p:nth-child(2){
+    text-align: center;
+
+
+    width: 100px;
+}
+
+.cart_discount_code_contenu_right_top span:nth-child(3) {
+    font-weight: 800;
+}
+
+
+.cart_discount_code_contenu_right_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+   
+}
+
+
+.cart_discount_code_contenu_right_bottom a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: var(--color-indigo);
+    color: white;
+    border-radius: 10px;
+    font-size: 14px;
+    width:40%;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+.cart_discount_code_contenu_right_bottom a:hover {
+    background-color: var(--bg-footer);
+}
 
 
 
@@ -5951,6 +6111,169 @@ header .log_btn  button{
 
 
 
+/* cart disount code  */
+
+
+
+
+.cart_dicount_code   {
+
+    
+}
+
+
+.cart_dicount_code .cart_discount_code_contenu {
+
+    display: flex;
+    width: 100%;
+    flex-direction: column-reverse;
+    gap: 20px;
+    /* height: 50vh; */
+    
+}
+
+
+
+.cart_discount_code_contenu_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    padding: 0 5%;
+}
+
+
+.discount_code_contenu_left_top h2 {
+   font-size: 18px;
+   font-weight: 700;
+}
+
+
+
+.discount_code_contenu_left_top p {
+  font-size: 14px;
+  color: var(--color-p);
+}
+
+
+
+.discount_code_contenu_left_input {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 5vh;
+
+}
+
+.discount_code_contenu_left_input input {
+   margin: 5px 7px;
+   font-size: 14px;
+   width: 60%;
+   border: none;
+   outline: none;
+   padding: 5px;
+   color: #262928;
+}
+
+
+.discount_code_contenu_left_input  button {
+    border: none;
+    font-size: 14px;
+    height: 5vh;
+    width: 40%;
+    color: white;
+    outline: none;
+    background-color: var(--color-indigo);
+    transition: 0.3s ease-in;
+    
+
+}
+
+.discount_code_contenu_left_input  button:hover {
+    background-color: #000000;
+}
+
+
+
+.discount_code_contenu_left_btn {
+
+    width: 35%;
+    padding: 7px;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    border: 1px solid var(--color-p);
+}
+
+
+
+/* right */
+
+
+
+
+.cart_discount_code_contenu_right {
+
+    width:  100%;
+    background-color: #dbdada;
+     padding: 5% 0;
+     margin-bottom: 50px;
+    
+    
+}
+
+
+.cart_discount_code_contenu_right_top {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     padding-bottom: 50px;
+     border-bottom: 2px solid var(--color-p);
+}
+
+.cart_discount_code_contenu_right_top span {
+
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+
+.cart_discount_code_contenu_right_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+   
+}
+
+
+.cart_discount_code_contenu_right_bottom a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: var(--color-indigo);
+    color: white;
+    border-radius: 10px;
+    font-size: 14px;
+    width:40%;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+
+
+
+
+
 
 
 
@@ -7572,6 +7895,169 @@ header .log_btn  button{
 
 
 
+
+
+
+
+
+/* cart disount code  */
+
+
+
+
+.cart_dicount_code   {
+
+    
+}
+
+
+.cart_dicount_code .cart_discount_code_contenu {
+
+    display: flex;
+    width: 100%;
+    flex-direction: column-reverse;
+    gap: 20px;
+    /* height: 50vh; */
+    
+}
+
+
+
+.cart_discount_code_contenu_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    padding: 0 2%;
+    text-align: center;
+}
+
+
+.discount_code_contenu_left_top h2 {
+   font-size: 18px;
+   font-weight: 700;
+}
+
+
+
+.discount_code_contenu_left_top p {
+  font-size: 14px;
+  color: var(--color-p);
+}
+
+
+
+.discount_code_contenu_left_input {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 5vh;
+
+}
+
+.discount_code_contenu_left_input input {
+   margin: 5px 7px;
+   font-size: 14px;
+   width: 60%;
+   border: none;
+   outline: none;
+   padding: 5px;
+   color: #262928;
+}
+
+
+.discount_code_contenu_left_input  button {
+    border: none;
+    font-size: 14px;
+    height: 5vh;
+    width: 40%;
+    color: white;
+    outline: none;
+    background-color: var(--color-indigo);
+    transition: 0.3s ease-in;
+    
+
+}
+
+.discount_code_contenu_left_input  button:hover {
+    background-color: #000000;
+}
+
+
+
+.discount_code_contenu_left_btn {
+
+    width: 60%;
+    padding: 7px;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    border: 1px solid var(--color-p);
+}
+
+
+
+/* right */
+
+
+
+
+.cart_discount_code_contenu_right {
+
+    width:  100%;
+    background-color: #dbdada;
+     padding: 5% 0;
+     margin-bottom: 50px;
+    
+    
+}
+
+
+.cart_discount_code_contenu_right_top {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     padding-bottom: 20px;
+     border-bottom: 2px solid transparent;
+}
+
+.cart_discount_code_contenu_right_top span {
+
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+
+.cart_discount_code_contenu_right_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+   
+}
+
+
+.cart_discount_code_contenu_right_bottom a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: var(--color-indigo);
+    color: white;
+    border-radius: 10px;
+    font-size: 14px;
+    width:40%;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
 
 
 
