@@ -2748,6 +2748,10 @@ header .log_btn  button:nth-child(2):hover a {
   
 }
 
+.detail_btn_cart  .detail_btn_add a {
+    color: white;
+}
+
 .detail_btn_cart  .detail_btn_add:hover {
     background-color: var(--color-primaire);
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.281);
@@ -3013,30 +3017,25 @@ header .log_btn  button:nth-child(2):hover a {
     background-color: var(--color-indigo);
 }
 
-.cart_page .cart_top_link {
+.cart_top_link {
 
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-
-.cart_page .cart_top_link h3 {
-  font-size: 14px;
-  margin: 0;
-  font-weight: 700;
-  color: var(--color-p);
-  
+.cart_top_link a {
+    color: var(--color-p);
 }
 
-.cart_page .cart_top_link p {
-  font-size: 14px;
-  font-weight: 700;
-  color: #0d0e0dad;
-  
+.cart_top_link a:hover {
+    color: var(--color-primaire);
 }
 
-.cart_page .cart_top_link img {
+
+ 
+
+ .cart_top_link img {
     width: 20px;
     opacity: 0.7;
     height: 15px;
@@ -3311,8 +3310,9 @@ header .log_btn  button:nth-child(2):hover a {
 
 
 
-
-
+a {
+    text-decoration: none;
+}
 
 
 
@@ -6270,19 +6270,6 @@ header .log_btn  button{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
  
  
 }
@@ -6406,13 +6393,6 @@ header .recherche input::placeholder {
 
 
 
-
-
-
-
-    
-   
-
     /* hero  */
 
 
@@ -6517,11 +6497,6 @@ header .recherche input::placeholder {
     transition: opacity .6s ease;
     
 }
-
-
-
-
-
 
 
 
@@ -8046,7 +8021,6 @@ header .log_btn  button{
    
 }
 
-
 .cart_discount_code_contenu_right_bottom a {
     text-decoration: none;
     padding: 10px;
@@ -8058,15 +8032,6 @@ header .log_btn  button{
     text-align: center;
     transition: 0.3s ease-in-out;
 }
-
-
-
-
-
-
-
-
-
 
 
 
