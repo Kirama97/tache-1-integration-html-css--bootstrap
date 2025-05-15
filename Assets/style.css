@@ -2497,9 +2497,282 @@ header .log_btn  button:nth-child(2):hover a {
 
 
     width: 50%;
-    background-color: #c7bbbb;
+    background-color: #ffffff;
     padding-right: 5%;
+    padding-left: 3%;
+    padding-top: 20px;
 }
+
+.detail_product_right_content_top {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.detail_product_right_content_top P {
+
+    font-size: 13px;
+    color: var(--color-p);
+    transition: 0.2s ease-in-out;
+
+}
+
+.detail_product_right_content_top P:hover {
+    color: var(--color-primaire);
+    cursor: pointer;
+}
+
+
+
+.detail_product_right_content_top img {
+
+    width: 15px;
+    opacity: .6;
+    transition: 0.2s ease-in;
+    
+}
+
+
+.detail_product_right_content_top img:hover {
+    opacity: 1;
+}
+
+.detail_product_right .detail_title {
+    font-size: 30px;
+    font-weight: bold;
+    width: 50%;
+}
+
+.detail_product_comment {
+    display: flex;
+    gap: 30px;
+}
+
+.detail_product_comment_left 
+, .detail_product_comment_right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.detail_product_comment_left .detail_comment_start i {
+ color: var(--color-etoile);
+ font-size: 14px;
+}
+
+.detail_product_comment_left p {
+    font-size: 13px;
+}
+
+.detail_product_comment_right img {
+    width: 20px;
+}
+
+.detail_product_comment_right p {
+    font-size: 13px;
+}
+
+
+
+.detail_size_select {
+    display: flex;
+    align-items: center;
+    color: var(--color-p);
+    gap: 20px;
+    
+}
+
+
+.detail_size_select h4 {
+
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+
+}
+
+.detail_size_select p {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+
+}
+
+.detail_size_select img {
+
+    width: 20px;
+    height: 20px;
+    opacity: .6;
+    cursor: pointer;
+
+}
+.detail_size_select:hover img{
+
+    animation: explore 1s infinite;
+
+}
+
+
+.detail_size_select_box {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.detail_size_select_box_item {
+    /* padding: 10px ; */
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1.5px solid rgba(0, 0, 0, 0.219);
+    border-radius: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.detail_size_select_box_item:hover {
+    background-color: var(--color-primaire);
+    color: white;
+     border: 1.5px solid rgba(68, 199, 16, 0.219);
+   
+}
+
+.detail_size_select_box_item:nth-child(4) {
+    background-color: black;
+    color: white;
+}
+
+
+
+.detail_color_available {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.detail_color_item {
+    width: 27px;
+    height: 27px;
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.detail_color_item span {
+   
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.detail_color_item:nth-child(1) span {
+    background-color: #3F4646;
+
+  }  
+    
+.detail_color_item:nth-child(2) span {
+    background-color: #EDD146;
+
+    }
+    
+.detail_color_item:nth-child(3)  span {
+    background-color: #EB84B0;
+
+    }
+    
+.detail_color_item:nth-child(4) span {
+    background-color: #9C1F35;
+    
+
+}
+
+
+.detail_color_item:hover {
+
+     border: 2px solid rgba(0, 0, 0, 0.712);
+}
+
+
+.detail_btn_cart {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+
+
+.detail_btn_cart  button {
+
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 7px ;
+
+}
+.detail_btn_cart  .detail_btn_add {
+
+    background-color: var(--color-indigo);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 23%;
+    transition: 0.2S ease-in;
+  
+}
+
+.detail_btn_cart  .detail_btn_add:hover {
+    background-color: var(--color-primaire);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.281);
+}
+
+.detail_btn_cart  .detail_btn_add img {
+    width: 14px;
+    
+}
+
+.detail_btn_cart .detail_btn_price {
+    border: 1px solid var(--color-p);
+    width:17%;
+    background-color: white;
+    font-weight: 600;
+}
+
+
+.detail_btn_cart  .detail_btn_price:hover {
+    background-color: var(--color-primaire) ;
+    color: white;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.281);
+     border: 1px solid var(--color-primaire);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
