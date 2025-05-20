@@ -3429,15 +3429,76 @@ a {
 
 
 .checkout_form_contenu_right span {
-    font-size: 14px;
+    font-size: 12px;
     margin-bottom: 5px;
 }
 
 
 
+/* shipping */
+
+.shipping_top {
+    margin-bottom: 20px;
+}
+
+.shipping_top p {
+    font-size: 12px;
+}
+.shipping_top h5{
+    font-size: 14px;
+}
+
+.shipping_adress {
+    background-color: var(--bg-icone);
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.shipping_adress label {
+    font-size: 12px;
+}
+
+.shipping_adress .form-check:nth-child(1) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.199);
+}
 
 
 
+.shipping_methode {
+    background-color: var(--bg-icone);
+    padding: 20px 30px;
+    font-size: 12px;
+}
+
+
+.shipping_methode p {
+    border-bottom:1px solid  rgba(0, 0, 0, 0.199);
+    padding-bottom: 20px;
+    
+}
+
+.shipping_methode div {
+    margin-top: 10px;
+}
+
+.shipping_methode input {
+
+    background-color: var(--bg-icone);
+    font-size: 12px;
+    padding: 5px;
+}
+
+
+
+.shipping_methode_btn button {
+    font-size: 12px;
+    background-color: var(--color-indigo);
+    border: transparent;
+}
+
+.shipping_methode_btn button:hover {
+    background-color: var(--color-primaire);
+}
 
 
 
