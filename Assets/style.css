@@ -20,7 +20,10 @@
     --color-indigo  :  #8A33FD;
     --color-etoile  :  #EDD146;
     --bg-footer :  #3C4242;
-    --color-p : #26292896
+    --color-p : #26292896;
+    --font1 : "Urbanist", sans-serif; ;
+    --font2 :"Core Sans c", sans-serif;
+
 
 
 }
@@ -3026,6 +3029,7 @@ header .log_btn  button:nth-child(2):hover a {
 
 .cart_top_link a {
     color: var(--color-p);
+    font-size: 14px;
 }
 
 .cart_top_link a:hover {
@@ -3317,6 +3321,117 @@ a {
 
 
 
+
+/* checkout page   */
+
+
+
+.Checkout_page {
+    background-color: white;
+    font-family: var(--font2);
+}
+
+
+.Checkout_page .new_arrival_top h1{
+
+    font-size: 20px;
+
+} 
+.Checkout_page .cart_top h5{
+
+    font-size: 14px;
+    font-weight: 600;
+    
+} 
+
+.Checkout_page form label{
+     font-family: var(--font2);
+     font-size: 12px;
+     font-weight: 700;
+     color: var(--color-p);
+}
+.Checkout_page form input {
+     font-family: var(--font2);
+     font-size: 12px;
+     background-color: var(--bg-icone);
+     color: var(--color-p);
+     padding: 7px;
+}
+
+.Checkout_page form input::placeholder {
+    font-size: 12px;
+    color: #2c30342d;
+}
+
+.Checkout_page form select {
+    font-size: 12px;
+    color: var(--color-p);
+}
+
+.Checkout_page form button {
+    background-color: var(--color-indigo);
+    font-size: 12px;
+    border: transparent;
+    transition: 0.2s ease-in;
+}
+
+.Checkout_page form button:hover {
+    background-color: var(--color-primaire);
+}
+
+
+
+.Checkout_page main{
+    padding: 0 5%;
+}
+
+
+.checkout_form_contenu_right li strong {
+
+    font-size: 12px;
+    
+}
+
+
+.checkout_form_contenu_right li h3 {
+    font-size: 12px;
+    margin-top: 5px;
+    color: black;
+    font-weight: 550;
+}
+
+.checkout_form_contenu_right li h3 span {
+    color: var(--color-p);
+    font-weight: 100;
+    font-size: 12px;
+    
+}
+
+
+
+
+
+.checkout_form_contenu_right li p  {
+
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--color-p);
+
+}
+
+.checkout_form_contenu_right li {
+    border-top: 1px solid var(--bg-icone);
+    padding: 10px 0;
+    /* background-color: #2ecc71; */
+    cursor: pointer;
+}
+
+
+
+.checkout_form_contenu_right span {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
 
 
 
