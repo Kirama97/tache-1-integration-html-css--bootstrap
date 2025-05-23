@@ -3435,6 +3435,18 @@ a {
 
 
 
+ #continue_delivery {
+    color: white;
+    background-color: var(--color-indigo);
+    border: transparent;
+    transition: 0.2s ease-in;
+}
+
+ #continue_delivery:hover {
+    background-color: var(--color-primaire);
+ }
+
+
 /* shipping */
 
 .shipping_top {
@@ -3644,14 +3656,6 @@ height: 100%;
 
 /* partie contact detail left  */
 
-.contact_detail_contenu_left {
-
-
-   
-
-
-}
-
 
 
 .contact_detail_contenu_left_nav {
@@ -3713,25 +3717,6 @@ height: 100%;
 
 
 /* partie contact detail right  */
-
-
-.contact_detail_contenu_right {
-  /* background-color: #cad3d6; */
-}
-
-
-
-
-.contact_detail_contenu_right_box {
-
-
-}
-
-
-
-.contact_detail_contenu_right_box1 {
-    
-}
 
 
 .contact_detail_contenu_right_box1 ul {
@@ -3838,7 +3823,65 @@ list-style: none;
 
 
 
+/* ---------------------------   add address page ----------------------------*/
 
+
+
+.add_address_page {
+    background-color: white;
+
+}
+
+.add_address_page main {
+    padding: 0 5%;
+}
+
+
+.add_address_page .new_arrival_top h1 {
+ font-size: 18px;
+}
+.add_address_page .new_arrival_top h5 {
+  font-size: 14px;
+}
+
+
+
+.add_address_contenu_right_box {
+    
+}
+
+.add_address_contenu_right_box form input {
+
+    padding: 10px 10px ;
+    font-size: 12px;
+    background-color: var(--bg-icone);
+
+}
+
+.add_address_contenu_right_box form label {
+  font-size: 14px;
+}
+.add_address_contenu_right_box form select {
+  font-size: 14px ;
+  color: var(--color-p);
+  padding: 10px;
+}
+
+.add_address_contenu_right_box form select option {
+
+}
+
+.add_address_checkbox .form-check{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.add_address_contenu_right_box form button:nth-child(1) {
+ background-color: var(--color-indigo);
+ border: transparent;
+}
 
 
 
@@ -5034,21 +5077,6 @@ header {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .product_detail_page {
     background-color: white;
 }
@@ -5202,6 +5230,215 @@ header {
     font-size: 14px;
 
 }
+
+
+
+
+
+
+
+
+
+/* -----------------------contact detail page -------------------*/
+
+
+
+.contact_detail_page .new_arrival_top h1 {
+ font-size: 18px;
+}
+.contact_detail_page .new_arrival_top h5 {
+  font-size: 14px;
+}
+
+.contact_detail_page {
+ background-color: white;
+ font-family: var(--font2);
+}
+
+
+.contact_detail_page main {
+    padding: 0 5%;
+}
+
+
+
+.contact_detail_contenu {
+    /* background-color: grey; */
+}
+
+
+/* partie contact detail left  */
+
+
+
+.contact_detail_contenu_left_nav {
+    height: 25vh ;
+    width: 100%;
+   
+
+
+}
+
+
+
+
+.contact_detail_contenu_left_nav ul  {
+
+    list-style: none;
+    padding: 0;
+
+}
+
+.contact_detail_contenu_left_nav ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+      border-left: 2px solid transparent;
+    margin-bottom: 5px;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+    padding-left: 30px;
+
+    
+}
+
+.contact_detail_contenu_left_nav ul li img {
+    width: 15px;
+}
+
+.contact_detail_contenu_left_nav ul li:hover {
+       border-left: 2px solid var(--color-p);
+    background-color: var(--bg-icone);
+}
+
+
+
+.contact_detail_contenu_left_nav ul li h4 {
+
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+
+#contact_nav_link {
+    border-left: 2px solid var(--color-p);
+    background-color: var(--bg-icone);
+}
+
+
+
+
+/* partie contact detail right  */
+
+
+.contact_detail_contenu_right_box1 ul {
+
+padding: 0;
+list-style: none;
+
+}
+
+
+.contact_detail_contenu_right_box1 ul  li{
+  padding:  15px  0 ;
+  border-bottom: 1px solid var(--bg-icone);
+
+  
+}
+
+.contact_detail_contenu_right_box1 ul  li p{
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--color-p);
+  margin-bottom: 10px;
+}
+
+.contact_detail_contenu_right_box1 ul  li .change input {
+
+    border: none;
+    background-color: transparent;
+    font-size:14px;
+    outline: none;
+}
+
+.contact_detail_contenu_right_box1 ul  li .change{
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.contact_detail_contenu_right_box1 ul  li .change a{
+  
+ color: var(--bg-footer);
+ transition: 0.2s ease-in;
+    
+
+
+}
+
+.contact_detail_contenu_right_box1 ul  li .change a:hover {
+    color: black;
+}
+
+
+/* right box 2 */
+
+
+.right_box2_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.right_box2_top a {
+    color: var(--bg-footer);
+    font-size: 16px;
+}
+
+
+.right_box2_item .card-custom {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    color: var(--color-p);
+}
+
+.right_box2_item .card-custom h5 {
+    color: black;
+}
+
+
+.right_box2_item .card-custom a {
+    color: var(--bg-footer);
+    transition: 0.2s ease-in-out;
+}
+
+
+.right_box2_item .card-custom a:hover {
+    color: var(--color-indigo);
+}
+
+
+.right_box2_item .card-custom {
+    transition: 0.2s ease-in-out;
+}
+
+.right_box2_item .card-custom:hover {
+    transform: scale(.9);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
 
 
 
