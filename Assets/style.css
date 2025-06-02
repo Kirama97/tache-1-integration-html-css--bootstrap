@@ -3337,10 +3337,12 @@ a {
     font-size: 20px;
 
 } 
-.Checkout_page .cart_top h5{
+ .cart_top h5{
 
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
+    color: var(--color-p );
+ 
     
 } 
 
@@ -3882,6 +3884,166 @@ list-style: none;
  background-color: var(--color-indigo);
  border: transparent;
 }
+
+
+
+
+
+/* -------------------- wishlist page  -----------------*/
+
+
+
+.Wishlist_page {
+    background-color: white;
+
+}
+
+.Wishlist_page main {
+    padding: 0 5%;
+}
+
+
+.Wishlist_page .new_arrival_top h1 {
+ font-size: 18px;
+}
+.Wishlist_page .new_arrival_top h5 {
+  font-size: 14px;
+}
+
+
+
+ .wishlist-item {
+      border-bottom: 1px solid #e0e0e0;
+      padding: 1rem 0;
+    }
+    .wishlist-img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+    .remove-btn {
+      font-size: 1.2rem;
+      cursor: pointer;
+      color: #666;
+    }
+    .add-to-cart-btn {
+      background-color: #8c52ff;
+      color: white;
+      font-size: 14px;
+    }
+
+
+    .add-to-cart-btn:hover {
+     background-color: var(--color-primaire);
+        color: white;
+
+    }
+
+
+
+
+
+
+
+
+
+
+/* ----------- wishlist  vide --------------------------- */
+
+
+  .empty-wishlist {
+     
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .wishlist-icon {
+      width: 80px;
+      height: 80px;
+      background-color: #f1f7f4;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto 20px auto;
+    }
+    .wishlist-icon i {
+      font-size: 36px;
+      color: #28a745;
+    }
+    .continue-btn {
+      background-color: #8c52ff;
+      color: white;
+    }
+
+     .continue-btn:hover {
+        background-color: var(--color-primaire);
+        color: white;
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
