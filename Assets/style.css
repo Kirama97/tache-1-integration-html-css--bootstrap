@@ -2348,7 +2348,7 @@ header .log_btn  button:nth-child(2):hover a {
 
 
 .section_detail {
-     background-color: rgba(211, 203, 203, 0.753);
+     /* background-color: rgba(211, 203, 203, 0.753); */
     /* padding:0 5%; */
 }
 
