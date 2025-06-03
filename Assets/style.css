@@ -1086,7 +1086,7 @@ padding: 10px;
 
 .home_footer {
     background-color: var(--bg-footer);
-    height: 80vh;
+    /* height: 80vh; */
     width: 100%;
     font-family: "Urbanist", sans-serif; 
 }
