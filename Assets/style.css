@@ -2529,6 +2529,15 @@ header .log_btn  button:nth-child(2):hover a {
 }
 
 
+.detail_product_right_content_top a{
+    color: var(--color-p);
+    transition: 0.2s ease-in;
+}
+.detail_product_right_content_top a:hover{
+    color: var(--color-primaire);
+}
+
+
 .detail_product_right_content_top P {
 
     font-size: 13px;
